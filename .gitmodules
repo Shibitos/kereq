@@ -1,0 +1,9 @@
+[submodule "kereq-backend"]
+	path = kereq-backend
+	url = git@github.com:Shibitos/kereq-backend.git
+[submodule "kereq-communicator"]
+	path = kereq-communicator
+	url = git@github.com:Shibitos/kereq-communicator.git
+[submodule "kereq-frontend"]
+	path = kereq-frontend
+	url = git@github.com:Shibitos/kereq-frontend.git
