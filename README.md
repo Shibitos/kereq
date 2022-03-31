@@ -3,6 +3,7 @@ Collective repository for social media platform named Kereq.
 
 ## Table of Contents
 * [General Info](#general-information)
+* [Modules](#modules)
 * [Tech Stack](#tech-stack)
 * [Current functionalities](#current-functionalities)
 * [Screenshots](#screenshots)
@@ -15,7 +16,13 @@ This project's purpose is fully educational. Reasons why I chose this type of pr
 - It has a lot of potential feature/technologies to use
 - It is fun
 
+## Modules
+- Backend - core of project. It handles almost all backend logic (except ones described in Communicator module)
+- Communicator - uses microservice architecture to provide chat, notifications, user presence status and future functionalities based on websocket communication
+- Frontend - visual part of project, which communicates with Backend and Communicator
+
 ## Tech Stack
+Backend and communicator:
 - Java 11
 - Spring Boot 2.5.5
 - Spring Cloud
@@ -24,6 +31,10 @@ This project's purpose is fully educational. Reasons why I chose this type of pr
 - RabbitMQ
 - Ehcache
 - AspectJ
+
+Frontend:
+- Angular 13
+- Bootstrap 5
 
 ## Current functionalities
 - Creating an account and logging in
