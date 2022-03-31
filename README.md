@@ -40,7 +40,7 @@ This project's purpose is fully educational. Reasons why I chose this type of pr
 ## Screenshots
 ![Wall](./screenshoots/wall.jpg)
 ![Profile](./screenshoots/profile.jpg)
-![Chat](./screenshots/chat.jpg)
+![Chat](./screenshoots/chat.jpg)
 
 ## Project Status
 In progress: early alpha.
